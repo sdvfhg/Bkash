@@ -5,7 +5,7 @@ const popup = document.getElementById("popup");
 const prizeText = document.getElementById("prizeText");
 const closeBtn = document.getElementById("closeBtn");
 
-const prizes = ["Prize 1", "Prize 2", "Prize 3", "Prize 4", "Prize 5", "Prize 6"];
+const prizes = ["রিচার্জ ৫০", "লাইট", "Cup IceCream", "মজো ২৫০ml", "রিচার্জ ২০", "স্পিড"];
 const colors = ["#FFD700", "#FF4500", "#8A2BE2", "#FF69B4", "#1E90FF", "#32CD32"];
 
 let angle = 0;
@@ -73,3 +73,4 @@ spinBtn.addEventListener("click", spinWheel);
 closeBtn.addEventListener("click", () => popup.style.display = "none");
 
 drawWheel();
+
